@@ -4,15 +4,13 @@
  # @FilePath: /pc-ui/deploy.sh
  # @Date: 2021-12-04 17:15:34
  # @LastEditors: zhoulf
- # @LastEditTime: 2022-07-05 12:00:15
+ # @LastEditTime: 2022-07-05 12:03:45
  # @Description: 
 ### 
 
 # 确保脚本抛出遇到的错误
 set -e
 
-# 生成静态文件
-npm run build
 
 # 进入生成的文件夹
 cd docs/site
@@ -20,6 +18,8 @@ cd docs/site
 # 如果是发布到自定义域名
 # echo 'www.example.com' > CNAME
 
+# 生成静态文件
+yarn build:site
 git init
 git add -A
 git commit -m 'depoly脚本更新'
