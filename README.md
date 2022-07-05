@@ -3,7 +3,7 @@
  * @FilePath: /pc-ui/README.md
  * @Date: 2022-04-22 11:48:34
  * @LastEditors: zhoulf
- * @LastEditTime: 2022-06-14 14:13:26
+ * @LastEditTime: 2022-07-05 12:01:26
  * @Description: 
 -->
 # 城管二部 前端PC端组件库
@@ -18,7 +18,7 @@
 - 内置 ESlint、Stylelint 校验规则，提交代码时自动执行校验
 
 ## 组件文档在线地址：
-[点击查看](http://10.12.107.48:8109/cmui)
+[点击查看](https://zhoulongf.github.io/pc-ui/)
 
 ## 组件列表及组件封装计划如下
 

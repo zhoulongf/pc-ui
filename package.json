@@ -12,7 +12,8 @@
     "clean": "rimraf ./lib",
     "build": "yarn clean && rollup -c",
     "cz": "git add . && git-cz",
-    "changelog": "conventional-changelog -p angular -i ./docs/docs/CHANGELOG.md -r -s 0"
+    "changelog": "conventional-changelog -p angular -i ./docs/docs/CHANGELOG.md -r -s 0",
+    "deploy": "bash deploy.sh"
   },
   "repository": {
     "type": "git",
